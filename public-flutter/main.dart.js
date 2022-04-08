@@ -38867,7 +38867,7 @@ uV(a,b){return this.a9r(a,b)},
 a9r(a,b){var s=0,r=A.Z(t.W7),q,p=[],o,n,m,l,k,j,i,h
 var $async$uV=A.a_(function(c,d){if(c===1)return A.W(d,r)
 while(true)switch(s){case 0:s=3
-return A.a6(A.ayw(A.atw("http","localhost:3000","loginInfo/"+a+"/"+b,null)),$async$uV)
+return A.a6(A.ayw(A.atw("https","assessmentapi.examvedha.com","/loginInfo/"+a+"/"+b,null)),$async$uV)
 case 3:h=d
 try{l=t.W7
 if(h.b===200){k=h
@@ -38893,7 +38893,7 @@ var $async$uY=A.a_(function(e,f){if(e===1)return A.W(f,r)
 while(true)switch(s){case 0:k=t.N
 j=A.c(["q",B.m.j(c),"a",B.m.j(d)],k,k)
 s=3
-return A.a6(A.ayw(A.atw("http","localhost:3000","/markAnswer/"+a+"/"+b,j)),$async$uY)
+return A.a6(A.ayw(A.atw("https","assessmentapi.examvedha.com","/markAnswer/"+a+"/"+b,j)),$async$uY)
 case 3:i=f
 try{k=t.Wg
 if(i.b===200){q=new A.e_(!0,null,!1,200,k)
@@ -38912,7 +38912,7 @@ rh(a,b,c){return this.PB(0,b,c)},
 PB(a,b,c){var s=0,r=A.Z(t.Wg),q,p=[],o,n,m,l,k,j
 var $async$rh=A.a_(function(d,e){if(d===1)return A.W(e,r)
 while(true)switch(s){case 0:s=3
-return A.a6(A.ayw(A.atw("http","localhost:3000","/submit/"+b+"/"+c,null)),$async$rh)
+return A.a6(A.ayw(A.atw("https","assessmentapi.examvedha.com","/submit/"+b+"/"+c,null)),$async$rh)
 case 3:j=e
 try{n=t.Wg
 if(j.b===200){q=new A.e_(!1,null,!1,200,n)
@@ -38933,7 +38933,7 @@ a9s(a,b,c){var s=0,r=A.Z(t.Eh),q,p,o,n,m,l,k,j,i,h,g,f
 var $async$uW=A.a_(function(d,e){if(d===1)return A.W(e,r)
 while(true)switch(s){case 0:g=t.N
 s=3
-return A.a6(A.b8N(A.atw("http","localhost:3000","/user/login",null),B.ar.Le(A.c(["a_id",a,"u_id",b,"password",c],g,g),null),B.EH),$async$uW)
+return A.a6(A.b8N(A.atw("http","assessmentapi.examvedha.com","/user/login",null),B.ar.Le(A.c(["a_id",a,"u_id",b,"password",c],g,g),null),B.EH),$async$uW)
 case 3:f=e
 g=f.b
 p=f.e
