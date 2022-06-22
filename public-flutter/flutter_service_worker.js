@@ -5,23 +5,24 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "assets/AssetManifest.json": "fdc3706db9b00024177b889a90de8613",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/images/error.png": "4a78b913cccd1947106bfe913952d7ee",
-"assets/images/logo.png": "4141300de077312c7ca454814eb1626e",
+"assets/images/logo.png": "661b112d123fa1f3f580152c4c85de7b",
 "assets/images/mainpage.png": "8b3d61fa457d37117fd0b68e323f0850",
 "assets/images/submit.png": "68864867f4b0c4938c58cfc38e6211f9",
-"assets/NOTICES": "2d0bc1de1bee7fe73ce977ac587020dd",
+"assets/NOTICES": "73ec4700179ef9ad8a6a42745710947c",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "77dcf2a069ee659f4d75b03be998c342",
-"/": "77dcf2a069ee659f4d75b03be998c342",
-"main.dart.js": "bc12867904f5072b1de355aff24c90a5",
+"index.html": "f2ef9f4a850fcae6c018d5cee344d879",
+"/": "f2ef9f4a850fcae6c018d5cee344d879",
+"main.dart.js": "19a94a2de247a97af47b7df8435b1381",
 "manifest.json": "8e91236a4b2107cc3ce05190d00a28b9",
 "version.json": "a53457d61d53c0c62dc04585ce56752c"
 };
@@ -29,8 +30,7 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",
